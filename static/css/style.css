@@ -1,3 +1,33 @@
-#Main_Title  {color: beige;
+body {background-color: beige;}
+
+
+
+#Main_Title  {color: red;
      font-size: 40px;
     text-align: center;}
+
+#opening {color: brown;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;}
+
+.alphabet{background-color: #6F4E37;
+color: white;
+display: inline-block;
+padding: 15px;}
+
+#entire_keyboard{
+     position: relative;
+     top: 300px;
+     left: 300px;
+
+}
+
+#keyboard2{position: relative;
+top: 15px;
+left: 15px;}
+
+#keyboard3{position: relative;
+top: 30px;
+left: 30px;}
+
