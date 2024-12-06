@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="static\css\style.css">
+    <script src="static\sandbox.js"></script>
 </head>
 <body>
+    
     <h1 id="Main_Title">Scrabble Master</h1>
 
     <p id="opening">Welcome to Scrabble Master where you can get all combinations for your hand!</p>
 
 
+
+
+<textarea name="lettercombo" id="lettercombo"></textarea>
+    
+
 <div id="entire_keyboard">
-    <div id="keyboard1"><button type="button", class="alphabet">Q</button>
-    <button type="button", class="alphabet">W</button>
-    <button type="button", class="alphabet">E</button>
-    <button type="button", class="alphabet">R</button>
-    <button type="button", class="alphabet">T</button>
-    <button type="button", class="alphabet">Y</button>
-    <button type="button", class="alphabet">U</button>
-    <button type="button", class="alphabet">I</button>
-    <button type="button", class="alphabet">O</button>
-    <button type="button", class="alphabet">P</button></div>
+    <div id="keyboard1"><button type="button", class="alphabet", id="Q">Q</button>
+    <button type="button", onclick="displaytext()", class="alphabet", id="W">W</button>
+    <button type="button", onclick="displaytext()", class="alphabet", id="E">E</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="R">R</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="T">T</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="Y">Y</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="U">U</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="I">I</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="O">O</button>
+    <button type="button", onclick="displaytext()",class="alphabet", id="P">P</button></div>
     
    <div id="keyboard2"><button type="button", class="alphabet">A</button>
     <button type="button", class="alphabet">S</button>
